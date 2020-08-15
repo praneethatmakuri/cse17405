@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Play&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Lab3_CSS1.css">
+	<link rel="stylesheet" type="text/css" href="Lab3_CSS2.css">
+	<link rel="stylesheet" type="text/css" href="Lab3_CSS3.css">
+</head>
+<body>
+	<h1><marquee style="color:red;background-color:yellow" direction="right">Welcome to the Tumblr Website</marquee><h1>
+	<h1>Tumblr</h1>
+	<fieldset class="fs1"><legend>Sign in</legend>
+		<form>
+			<div class="div1">
+				<div class="div2">
+					<label for="fname">First Name:</label>
+					<input type="text" id="fname" name="fname" size="20"><br><br>
+					<label for="lname">Last Name:</label>
+					<input type="text" id="lname" name="lname" id=#lname size="20"><br><br> 
+				</div>
+				<input type="submit" value="submit" class="submit">
+				<input type="reset" value="reset" class="reset"><br><br>
+				<a href="#forgot">Forgot Password?</a>
+			</div>
+	 	</form>
+	</fieldset>
+	<fieldset class="fs2"><legend>Sign Up</legend>
+		<form>
+			<label for="name">Name</label>
+			<input type="text" id="name" required placeholder="First Name" size="20">
+			<input type="text" id="name" required placeholder="Last Name" size="20"><br><br>
+			<label for="uname">Choose your Username</label>
+			<input type="email" id="uname" required placeholder="Example@gmail.com" size="20"><br><br>
+			<label for="pass">Create a Password</label>
+			<input type="Password" id="pass" required placeholder="Enter Password" size="20"><br><br>
+			<label for="cpass">Confirm your Password</label>
+			<input type="Password" id="cpass" required placeholder="Confirm Password" size="20"><br><br>
+			<label for="Birthday">Date of Birth</label>
+			<!--<select id="Birthday" name="Birthday">
+				<option value="January">January</option>
+				<option value="February">February</option>
+				<option value="March">March</option>
+				<option value="April">April</option>
+				<option value="May">May</option>
+				<option value="June">June</option>
+				<option value="July">July</option>
+				<option value="August">August</option>
+				<option value="September">September</option>
+				<option value="October">October</option>
+				<option value="November">November</option>
+				<option value="December">December</option>
+			</select>-->
+			<input type="date" id="Birthday" name="Birthday" required placeholder="Date"><br><br>
+			<!--<input type="text" id="Birthday" name="Birthday" required placeholder="Year"><br><br>-->
+			<label for="Gender">Gender</label>
+			<select id="Gender" name="Gender">
+				<option value="Male">Male</option>
+				<option value="Male">Female</option>
+			</select><br><br>
+			<label for="Number">Mobile Number</label>
+			<input type="tel" id="Number" name="Number" required placeholder="Enter Your Number" size="20"><br><br>
+			<label for="cemail">Confirmation Email</label>
+			<input type="email" id="cemail" name="cemail" required placeholder="Example@gmail.com" size="20"><br><br>
+			<label for="Confirmation">Prove you are not a robot</label><br><br>
+			<input type="checkbox" id="Confirmation">
+			<label>Skip this Verification and Verify Via Phone</label><br><br>
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7khWOuCfbvjC3MRETa7C8BBx7GYSlvrZFnQ&usqp=CAU">;<br><br><br>
+			<label for="Location">Location</label>
+			<select id="Location" name="Location">
+				<option value="India">India</option>
+				<option value="Russia">Russia</option>
+				<option value="USA">USA</option>
+				<option value="South Africa">South Africa</option>
+				<option value="Brazil">Brazil</option>
+			</select><br><br>
+			<input type="checkbox" name="checkbox">I agree to Google<span style="color:blue;font-weight:bold;">Terms and Services</span> and <span style="color:blue;font-weight:bold">Privacy Policy</span>
+		</form>
+	</fieldset>
+	<img src="data:image/jpeg;base64,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" alt="Facebook Logo" id="img1">
+	<br><br>
+	<div style="float:left" class="p">
+		<p>Tumblr is a blogging site that began in New York City in 2007 by founders David Karp and Marco Arment. The site allows users to post text, images, videos, links, quotes and audio to a short-form blog, called a tumbleblog. Users can follow other users, or choose to make their tumblelog private. Tumblr emphasizes ease of use. The site has roughly 91.7 million posts a day and gains about 15,000 new users on a day on average. In 2013, Yahoo bought Tumblr for $1.1 billion. After the sale to Yahoo, David Karp remained as CEO.</p>
+	</div>
+	<div class="p">
+		<p>Tumblr (stylized as tumblr and pronounced "tumbler") is an American microblogging and social networking website founded by David Karp in 2007 and currently owned by Automattic. The service allows users to post multimedia and other content to a short-form blog. Users can follow other users' blogs. Bloggers can also make their blogs private.For bloggers many of the website's features are accessed from a "dashboard" interface.
+
+As of August 12, 2019, Tumblr hosts over 475 million blogs. As of January 2016, the website had over 500 million monthly visitors, which dropped to less than 400 million by August 2019..</p>
+	</div>
+	<div id="p1">
+		<p>Tumblr has been noted for the socially progressive views of its users.[51][52] In 2011, the service was most popular with the teen and college-aged user segments with half of Tumblr's visitor base being under the age of 25.[53] In April 2013, the website received more than 13 billion global page views.[54] User activity, measured by the number of blog posts each day, peaked at over 100 million in early 2014 and declined in each of the next three years, to approximately 30 million by October 2018.[55]
+
+As of May 2019, Tumblr hosts over 465 million blogs and more than 172 billion posts in total[6] with over 21 million posts created on the site each day</p>
+	</div>
+	<div id="p2">
+		<p>On August 12, 2019, Verizon Media announced that it would sell Tumblr to Automattic—operator of blog service WordPress.com and corporate backer of the open source blog software of the same name—for an undisclosed amount. Axios reported that the sale price was less than $3 million, a significant decrease over Yahoo's original purchase price. Automattic CEO Matt Mullenweg stated that the site will operate as a complementary service to WordPress.com, and that there were no plans to reverse the content policy decisions made during Verizon ownership.</p>
+	</div>
+	<div id="p3">
+		<p>Tumblr has been forced to manage spam and security problems. For example, a chain letter scam in May 2011 affected 130,000 users.
+
+On December 3, 2012, Tumblr was attacked by a cross-site scripting worm deployed by the Internet troll group Gay Nigger Association of America. The message urged users to harm themselves and criticized blogging in general</p>
+	</div>
+	<br><br>
+	<div style="color:rgb(214, 20, 217);">
+		<p>We care for you stay safe at home Did you know?</p>
+	</div>
+	<table>
+		<thead>
+			<tr>
+				<th>Name Of the Country</th>
+				<th>Latest Count of Carona Cases</th>
+				<th>No.Of Deaths</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>United States</td>
+				<td style="color:red;">4,80,973</td>
+				<td>159,261</td>
+			</tr>
+			<tr>
+				<td>Brazil</td>
+				<td>2,755,081</td>
+				<td>94,781</td>
+			</tr>
+			<tr>
+				<td>India</td>
+				<td>1,878,382</td>
+				<td>39,188</td>
+			</tr>
+			<tr>
+				<td>Russia</td>
+				<td>861,423</td>
+				<td>14,351</td>
+			</tr>
+			<tr>
+				<td>South Africa</td>
+				<td>561,862</td>
+				<td style="color:green;">8,539</td>
+			</tr>
+		</tbody>
+	</table>
+		<ul class="nav">
+  			<li><a href="#home">Home</a></li>
+  			<li><a href="#about">About Us</a></li>
+  			<li><a href="#clients">Our Clients</a></li>  
+  			<li id="last"><a href="#contact">Contact Us</a></li>
+		</ul><br><br>
+		<b>Zero Covid-19 Cases</b>
+	<ul id="square">
+		<li>North Corea</li>
+		<li>Turkmenistan</li>
+		<li>Solomon Islands</li>
+		<li>Vanuatu</li>
+		<li>Samoa</li>
+		<li>Kiribati</li>
+		<li>Federated States of Micronesia</li>
+		<li>Tonga</li>
+		<li>Marshall Islands</li>
+		<li>Palau</li>
+		<li>Tuvalu</li>
+		<li>Nauru</li>
+	</ul>
+	<h3>Pseudo-Selectors</h3>
+	<ol>
+		<li><a href="https://www.google.com" target="_blank" id="ol1">Hover Pseudo Class Selctor</a></<li>
+		<li><a href="https://www.amazon.com" target="_blank" id="ol2">Link Pseudo Class Selector</a></li>
+		<li><a href="https://www.facebook.com" target="_blank" id="vis">Visited Pseudo Class Selector</a></li>
+		<li><a href="https://www.instagram.com" target="_blank" id="ol4">Active Pseudo Class Selectors</a></li>
+	</ol>
+	<h3>Pseudo Class Child Selectors</h3>
+	<ol>
+		<li class="ol">First-child</li>
+		<li class="ol">Second-child</li>
+		<li class="ol">Last-Child</li>
+	</ol>
+	<h3>Without clear</h3>
+		<div class="div3">div3</div>
+		<div class="div4">div4 - Notice that div4 is after div3 in the HTML code. However, since div3 floats to the left, the text in div4 flows around div3.</div>
+		<br><br>
+	<div>
+	<h3>With clear</h3>
+		<div class="div5">div3</div>
+		<div class="div6">div6 - Here, clear: left; moves div5 down below the floating div5. The value "left" clears elements floated to the left. You can also clear "right" and "both".</div>
+	<div>
+
+	<h3>Flex-Box</h3>	
+	<div class="container">
+		<div class="container-item" style="
+		flex-grow:1;
+		flex-shrink:1;
+		flex-basis:100px;
+		align-self:flex-start;">A</div>
+		<div class="container-item" style="
+		flex-grow:1;
+		flex-shrink:;1
+		flex-basis:100px;
+		align-self:center;">B</div>
+		<div class="container-item" style="
+		flex-grow:1;
+		flex-shrink:1;
+		flex-basis:100px;
+		align-self:flex-end;">C</div>
+		<div class="container-item" style="
+		flex-grow:1;
+		flex-shrink:1;
+		flex-basis:100px;
+		align-self:center;">D</div>
+		<div class="container-item" style="
+		flex-grow:1;
+		flex-shrink:1;
+		flex-basis:100px;
+		align-self:flex-start;">E</div>
+	</div>
+</body>
+</html>

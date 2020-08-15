@@ -1,0 +1,38 @@
+.fs1{
+	position:absolute;
+	width:30%;
+	right:50px;
+	top:15%;
+}
+
+.fs2{
+	position:absolute;
+	width:40%;
+	top:80%;
+	right:50px;
+	margin:10% 0 0 10%;
+}
+
+.div1{
+	text-align:center;
+}
+
+.div2{
+	border:2px solid black;
+	text-align:center;
+	padding:10%;
+	margin:10%;
+}
+
+.submit{
+	border:2px solid black;
+	margin:0 10% 0 0;
+}
+
+.reset{
+	border:2px solid black;
+}
+
+#lname{
+	margin:10% 0 0 0;
+}

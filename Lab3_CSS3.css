@@ -1,0 +1,40 @@
+#img1
+{
+    width: 50;
+    height: 10%;
+    background: #555;
+}
+
+h3{
+	color:blue;
+}
+
+.p
+{
+    margin:1% 10% 5% 0;
+    width:50%;
+    text-align:justify;
+    font-style:italic;
+}
+
+#p1{
+	font-weight:bold; 
+	margin:1% 10% 5% 0;
+	text-align:justify;
+	width:50%;
+
+}
+
+#p2{
+	margin:1% 10% 5% 0;
+	text-align:justify;
+	width:50%;
+	font-family:'Roboto', sans-serif;
+}
+
+#p3{
+	margin:1% 10% 5% 0;
+	text-align:justify;
+	width:50%;
+	font-family: 'Play', sans-serif;
+}
